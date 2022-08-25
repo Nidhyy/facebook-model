@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("#sub-btn").validate({
+        rules:{
+            fname:{
+                required:true,
+                minlength:4
+            }
+        }
+    })
+})  

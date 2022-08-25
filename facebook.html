@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Facebook-login or sign up</title>
+    <link rel="stylesheet" href="fb.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a class="logo-text" href="facebook.html">facebook</a>
+            </div>
+            <div class=" login">
+                <form action="">
+                    <table class="login-controls">
+                        <tr>
+                            <td><label class="login-label">Email or Mobile</label></td>
+                            <td><label class="login-label">Password</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input class="log-btn" type="submit" value="Login"></td>
+                        </tr>
+                        <tr>
+                             <td></td>
+                            <td>
+                                <a class="forgotten" href="forgotten.html">Forgotten account?</a>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="main-body">
+            <div class="left-section"> 
+                <p class="para">Facebook helps you connect and share with the<br>people in your life.</p>
+                <img class="image" src="fb.png" alt="">
+            </div>
+            <div class="right-section">
+                <form action="hello.html" id="signup-form">
+                    <h1>Create an account</h1>
+                       <p>It's quick and easy.</p>
+                          <input name="fname" class="box1" type="text" placeholder="First name">
+                          <input name="sname" class="box2"type="text" placeholder="Surname"><br><br>
+                          <input class="box3" type="text" placeholder="Mobile number or email address"><br><br>
+                          <input class="box4" type="password" placeholder="New password"><br>
+                        <p id="ptag">Birthday</p>
+                        <select id="select-btn">
+                            <option>Day</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                        </select>
+                        <select id="select-btn">
+                            <option>Month</option>
+                            <option>Jan</option>
+                            <option>Feb</option>
+                            <option>Mar</option>
+                            <option>Apr</option>
+                            <option>May</option>
+                            <option>Jun</option>
+                            <option>Jul</option>
+                            <option>Aug</option>
+                            <option>Sep</option>
+                            <option>Oct</option>
+                            <option>Nov</option>
+                            <option>Dec</option>
+                        </select>
+                        <select id="select-btn">
+                            <option>Year</option>
+                            <option>2022</option>
+                            <option>2021</option>
+                            <option>2020</option>
+                            <option>2019</option>
+                            <option>2018</option>
+                            <option>2017</option>
+                        </select><br>
+                        <p id="ptag">Gender</p>
+                        <input type="radio"> <label id="gdr-label">Male</label>
+                        <input type="radio"> <label id="gdr-label">Female</label>
+                        <input type="radio"> <label id="gdr-label">Custom</label>
+
+                          <p id="ptag-policy">By clicking Singn Up, you agree to our <a id="atag-policy" href="facebook.html">Terms, Data Policy</a>
+                          and <a id="atag-policy" href="facebook.html">Cookie Policy.</a><p id="ptag-policy">You mey receive SMS notification from us and can opt out at any time.</p>
+                          <input class="sub-btn" type="submit" value="Sign Up"><br>
+                          <p id="ptag-page">Create a Page for a celebrity,band for business.</p>
+            </form>
+            </div>
+        </div>
+    </div> 
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
